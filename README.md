@@ -7,4 +7,7 @@ types in an id number. This is achived without reloading the page by using ajax 
 
  S. Dornan
 
-<a src="http://rest-ful_project.cloudfoundry.com/home">see demo.</a>
+<form action=""http://rest-ful_project.cloudfoundry.com/home"">
+ <input type="submit" value="see demo" />
+</form>
+
