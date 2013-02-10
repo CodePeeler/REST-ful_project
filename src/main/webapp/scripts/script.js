@@ -1,9 +1,8 @@
-
 	
 function showContact(str) { 
-	
-	
+		
 	var xmlhttp;
+	
 	//*****************************
 	if(str.length ==0){
 		  
@@ -17,9 +16,9 @@ function showContact(str) {
 	    document.getElementById("phoneResult").innerHTML="";
 		  			  
 	    return;
-	  }
-	
+	  }	
 	//*****************************
+	
 	if (window.XMLHttpRequest)
 	  {// code for IE7+, Firefox, Chrome, Opera, Safari
 	  xmlhttp=new XMLHttpRequest();
@@ -52,7 +51,6 @@ function showContact(str) {
 		}	      
     }; 
     xmlhttp.open("GET", "http://rest-ful_project.cloudfoundry.com/members/"+str, true);
-	//xmlhttp.open("GET","http://localhost:8080/members/"+str, true);
-	xmlhttp.send();
+    xmlhttp.send();
  };
 
