@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#frame{
+#frame {
 	
 	width: 300px;
 	height: 350px;
@@ -11,26 +11,26 @@
 	padding: 20px 0px 20px 40px;
 	border: 1px solid grey;
 }
-#frame h1{
+#frame h1 {
 	padding:20px 0;
 }
-#frame h2{
+#frame h2 {
 	padding:20px 0;
 }
 #caption {
 	color:blue;	
 	padding: 15px 0;
 }
-.argColor{
+.argColor {
 	color:green;
 }
-.resultColor{
+.resultColor {
 	color:red;
 }
 table {
 	padding: 20px 0;
 }
-#txt1{
+#txt1 {
 	padding: 2px;
 	color: grey;
 }
