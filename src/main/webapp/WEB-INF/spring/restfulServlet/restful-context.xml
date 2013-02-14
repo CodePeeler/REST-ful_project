@@ -18,6 +18,7 @@
 
 	<bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver" > 
 	
+		<property name="useNotAcceptableStatusCode" value="true"/>
 		<!-- 		
 		        **********************************************************************************
 			 Don't need to specify mediaTypes property since we are not using file extensions 
