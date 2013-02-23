@@ -7,4 +7,4 @@ types in an id number. This is achived without reloading the page by using ajax 
 
  S. Dornan
 
-<a href="http://rest-ful_project.cloudfoundry.com/home">See demo.</a>
+<a href="http://rest-ful_project.cloudfoundry.com/">See demo.</a>
