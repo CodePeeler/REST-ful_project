@@ -22,7 +22,7 @@ public class ContactController {
 		} else if(id==3){
 			member = new Contact("Irina Sheyk", "18005007", "hotStuff@yahoo.com");	
 		}else{
-			member = new Contact("No know member", "***", "***");
+			member = new Contact("No known member", "***", "***");
 		}
 		
 		
